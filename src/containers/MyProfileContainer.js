@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { withRouter } from 'react-router'
 import { Grid, Row, Col, Image, PageHeader, Panel, Button } from 'react-bootstrap'
-import { AddModal } from '../components/Modal/Modal'
+// import { AddModal } from '../components/Modal/Modal'
 
-import { getUserProfile } from '../actions/api'
+// import { getUserProfile } from '../actions/api'
 
 class MyProfileContainer extends Component {
   constructor(props) {
@@ -43,14 +43,168 @@ class MyProfileContainer extends Component {
       <div>
         <Grid>
           <Row className="show-grid valign-wrapper">
-            <Col xs={12} md={8} lg={4}>
-              {/* ADD PROFILE IMAGE HERE */}
+            <Col xs={1} md={2} lg={3}>
+              {/* https://vignette.wikia.nocookie.net/legouniverse/images/3/3c/Epic_face_ezio_by_kerog6-d49f4d3-1.jpg/revision/latest?cb=20120504225409 */}
             </Col>
-            <Col xs={12} md={4} lg={8}>
+            <Col xs={2} md={4} lg={6}>
               {/* ADD PAGE HEADER WITH NAME AND ABOUT ME HEADINGS HERE */}
-
-              {/* ADD ABOUT ME DESCRIPTION HERE */}
-
+              <Image thumbnail src="https://vignette.wikia.nocookie.net/legouniverse/images/3/3c/Epic_face_ezio_by_kerog6-d49f4d3-1.jpg/revision/latest?cb=20120504225409"/>
+              {/* Epic face equals epic life */}
+              <iframe src="http://www.me.umn.edu/~dockt036/snake.html" width="1000" height="800"></iframe>
+           
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">Don't push my my buttons</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
+              <Button bsStyle="primary">REEEEEEEEEEEEEEEEEEEEEEEEE YOU PUSHED MY BUTTONS!</Button>
             </Col>
           </Row>
           <Row className="show-grid">
@@ -58,9 +212,21 @@ class MyProfileContainer extends Component {
             {/* Include all sections in the following column */}
             <Col xs={12}>
 
-              {/* ADD HEADER FOR SECTION HERE */}
-
-              {/* ADD PANEL FOR SECTION INFORMATION WITH LIST HERE */}
+              <PageHeader>
+                My Interest
+                </PageHeader>
+                <Panel>
+                <Panel.Body>
+                  <ul>
+                   <li>Swimming</li>
+                    <li>Gaming</li>
+                    <li>Everything</li>
+                    </ul>
+                    </Panel.Body>
+                    </Panel>
+                    
+                    
+                                   {/* ADD PANEL FOR SECTION INFORMATION WITH LIST HERE */}
 
               {/* ADD BUTTON FOR ADDITIONAL INFORMATION HERE */}
 

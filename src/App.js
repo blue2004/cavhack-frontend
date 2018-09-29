@@ -1,7 +1,7 @@
 // importing components to use in this file
 import React, { Component } from 'react'
 import { Route, Switch } from 'react-router-dom'
-import { Navbar, NavItem, Nav } from 'react-bootstrap'
+import { Navbar } from 'react-bootstrap'
 
 import MyProfileContainer from './containers/MyProfileContainer'
 import AllProfilesContainer from './containers/AllProfilesContainer'
@@ -18,6 +18,13 @@ class App extends Component {
     return (
       <div>
         {/* ! ADD NAVBAR HERE */}
+      <Navbar>
+        <Navbar.Header>
+            <Navbar.Brand>
+          David's Profile
+            </Navbar.Brand>
+          </Navbar.Header>
+      </Navbar>
 
 
         {/* router to navigate between pages, each page is a container */}

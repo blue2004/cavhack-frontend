@@ -63,3 +63,11 @@ body {
   -ms-flex-align: center;
   align-items: center;
 }
+
+
+
+body {
+  background-image: url('/assests/images/orange.jpg');
+  height: 3000px;
+  width: 2000px;
+}
